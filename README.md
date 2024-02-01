@@ -1,2 +1,2 @@
-# LagdingPage1
+# LandingPage1
 This is first page
