@@ -5,13 +5,16 @@
 }
 body{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 #main{
     width: 100%;
     height:100%;
     background-color:gray 
 }
+    
+        /* //  Navbar------------     */
+
 nav{
     width: 100%; 
     height: 50px;
@@ -58,9 +61,10 @@ nav #btn4{
     background-color: orangered;
     color: #fff;
 }
+          /*  Cover --------       */
 .contener{
     width: 100%;
-    height:calc(100vh - 50px);
+    height:50vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,14 +78,33 @@ nav #btn4{
 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
-.contener img{
-    width: 350px;
-    height: 500px;
+.cover{
+   width: 100%;
+   height: 65vw;
+   /* background-color: blue; */
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.img{
+    /* background-color: red; */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover img{
+    width: 20vw;
+    height: 35vw;
     object-fit: cover;
     object-position: center;
     position: absolute;
     border-radius: 20px;
-}
+    transform: translate(-50px, -50px);
+} 
 #img1{
     transform: rotate(0deg);    }
 #img2{
@@ -92,42 +115,50 @@ nav #btn4{
     transform: rotate( -30deg);    }
 
 .footer1{
-    width: 80vw;
-    height: 100px;
-    align-items: center;
-    padding: 10px 50px;
-    position: absolute;
-    bottom: 10px;
+    width: 90%;
+    height: 0%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    background-color: blue; 
+}
+.footer1 h4{
+    color: rgb(249, 88, 29);
+    font-size: 3vw;
 }
 .right{
     width: 300px;
-    height: 60%;
+    height:80px;
     display: flex;
-    align-items: center;
     flex-direction: column;    
+    align-items: end;
 }
 .icon{
-    width: 40%;
-    height: 80px;
+    width: 110px;
+    height: 50px;
     display: flex;
-    justify-content: space-around;
+    gap: 5px;
 }
-.right img{
-    position: relative;
+.icon img{
     width: 30px;
     height: 30px;
-}
+    position: relative; 
+    cursor: pointer;
+    bottom: -60px;
+    left: 60px;  
+} 
+
+          /*  //Meet Our Team-------    */
 .meetOurTeam{
     width: 100%;
-    height: 65vh;
+    height: 1000px;
     border-top:2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: rgb(255, 185, 54);
+    border-bottom:2px solid orangered ;
 }
 .meetOurTeam h1{
     padding: 10px;
@@ -136,7 +167,7 @@ nav #btn4{
 .team{
     width: 100%;
     height: 100%;
-    background-color: orange;
+    background-color: rgb(255, 185, 54);
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -161,4 +192,54 @@ nav #btn4{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+      
+         /*  Our Events ----- */
+
+.events{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:  0px 10px;
+    background-color: rgb(250, 189, 109);
+}
+.events h1{
+    color: orangered;
+    padding:0px 20px ;
+}
+.u{
+    width: 100%;
+    border-top: 2px solid orangered;
+}
+.event1,.event2,.event3,.event4{
+    border-bottom: 2px solid black;
+    padding: 15px 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.events img{
+    width: 400px;
+    height: 200px;
+    padding: 10px 10px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px;
+}
+.events p{
+    padding: 20px;
+    width: 80%;
+}
+.eventLeft{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.eventRight{
+    width: 50%;
+    height:auto;
+    display: flex;
+    justify-content: end;
+    
 }
