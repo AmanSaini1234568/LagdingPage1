@@ -341,6 +341,7 @@ nav #btn4 {
     border-radius: 10px;
     color: white;
     margin: 15px;
+    cursor: pointer;
     background-color: orangered;
 
 }
