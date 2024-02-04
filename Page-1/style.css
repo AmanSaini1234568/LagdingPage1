@@ -28,17 +28,20 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.manu{
+
+.manu {
     display: flex;
     gap: 2px;
 }
-.manu button{
-    color: #fff;   
+
+.manu button {
+    color: #fff;
     background-color: orangered;
-    border: 1px solid black ;
+    border: 1px solid black;
     padding: 6px;
-    border-radius: 5px ;
+    border-radius: 5px;
 }
+
 #bar {
     width: 35px;
     height: 30px;
@@ -304,15 +307,58 @@ nav #btn4 {
     justify-content: end;
 }
 
+/*--------------- Fram -------------- */
+
+.fram {
+    width: 100%;
+    color: white;
+    height: 600px;
+    background-image: url("./IMG/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.8;
+    align-items: center;
+}
+
+.fram>h2 {
+    font-size: 40px;
+}
+
+.fram>h1 {
+    font-size: 70px;
+    line-height: 65px;
+}
+
+.fram p {
+    font-size: 20x;
+}
+
+.fram button {
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 15px;
+    background-color: orangered;
+
+}
 /* ----------------IMG-Slider--------------- */
 
 .slider {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     padding: 20px 10px;
     background-color: #fff;
+    /* background-image: url("./IMG/arrow4.jpg"); */
+    background-size: cover;
+    background-position: center;
+
 }
 
 .imgContener {
@@ -397,12 +443,13 @@ nav #btn4 {
     color: orangered;
     padding: 10px;
 }
-.slider>h2{
+
+.slider>h2 {
     padding: 5px;
 }
 
-.slider>p  {
-    width: 65%;
+.slider>p {
+    width: 75%;
     color: rgb(110, 102, 89);
 }
 
@@ -482,3 +529,4 @@ nav #btn4 {
     color: rgb(47, 255, 196);
     cursor: pointer;
 }
+
