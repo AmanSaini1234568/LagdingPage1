@@ -1,0 +1,133 @@
+@media (max-width: 700px) {
+
+    /*------------ Navbar ---------------*/
+    nav ul {
+        display: none;
+    }
+
+    #bar {
+        display: block;
+    }
+
+    /*------------ Cover ----------------*/
+
+    .contener {
+        height: 70vw;
+    }
+
+    .img>img {
+        width: 110px;
+        height: 160px;
+    }
+
+    /*------------ Our-Team ------------*/
+
+    .meetOurTeam {
+        height: 100%;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    .mamber1,
+    .mamber2,
+    .mamber3 {
+        width: 400px;
+        padding: 25px 0px;
+    }
+
+    .team img {
+        width: 300px;
+        height: 330px;
+        object-position: top;
+    }
+
+    .mamber1 p,
+    .mamber2 p,
+    .mamber3 p {
+        width: 300px;
+    }
+
+    /*----------- Events ---------------*/
+
+    .event1,
+    .event2,
+    .event3,
+    .event4 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #events img {
+        padding: 0px;
+        margin: auto;
+    }
+
+    .eventRight {
+        width: 80vw;
+    }
+
+    .eventLeft {
+        width: 80vw;
+    }
+
+    /*-------------- Form --------------*/
+    .fram {
+        object-position: bottom;
+        align-items: center;
+    }
+
+    .fram>h2 {
+        font-size: 30px;
+    }
+
+    .fram>h1 {
+        font-size: 52px;
+        line-height: 55px;
+    }
+
+    .fram p {
+        font-size: 18px;
+    }
+
+    .fram button {
+        font-size: large;
+        padding: 10px 35px;
+    }
+
+    /*-------------- IMG-Slider --------*/
+
+    .slider {
+        padding: 16px 0px;
+    }
+
+    .slider>h2 {
+        padding: 10px;
+    }
+
+    /*-------------- Footer -------------*/
+
+    #footer {
+        height: 100%;
+    }
+
+    .contect h1 {
+        font-size: 22px;
+    }
+
+    #contect h5 {
+        font-size: 15px;
+        width: 180px;
+    }
+
+    #phone {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    #phone p {
+        padding: 5px;
+    }
+}
